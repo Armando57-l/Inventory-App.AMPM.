@@ -1,0 +1,16 @@
+HH RETAIL INVENTARIO v3
+
+ACTUALIZAR EL SITIO EXISTENTE
+1. En GitHub, abre el repositorio actual.
+2. Sube los archivos de este ZIP descomprimidos.
+3. Cuando GitHub pregunte, reemplaza los archivos con el mismo nombre.
+4. Espera la publicación automática y abre el mismo enlace.
+
+USO
+Inventario > cargar .xlsx con Codigo, Descripcion y Cantidad.
+Escanear > iniciar cámara > escanear > escribir Cantidad encontrada > Agregar al conteo.
+Para códigos nuevos, escribir la descripción; Cantidad será 0.
+Inventario > Descargar Excel actualizado.
+
+El Excel exportado contiene Codigo, Descripcion, Cantidad, Conteo y Diferencia.
+Diferencia = Conteo - Cantidad.
